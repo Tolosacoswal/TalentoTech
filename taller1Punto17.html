@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO DE REGISTRO</title>
+</head>
+
+<body>
+    <H1>fORMULARIO DE REGISTRO</H1>
+    <p><label for="Nombre">nombre</label></p>
+    <input type="text" id="Nombre" name="Nombre" maxlength="60"> <br> <br>
+    <p><label for="Apellido">Apellido</label></p>
+    <input type="text" id="Apellido" name="Apellido" maxlength="60"> <br> <br>
+    <p><label for="Sexo">Sexo</label><br></p>
+    <label for="Mujer">Mujer</label>
+    <input type="radio" name="Genero" id="IDgenero" checked="checked"><br> <br>
+    <label for="Hombre">Hombre</label>
+    <input type="radio" name="Genero" id="IDgenero" checked="checked"><br> <br>
+    <label for="otro">Otro</label>
+    <input type="radio" name="Genero" id="IDgenero" checked="checked"> <br> <br>
+    <p><label for="Otro">Cual</label></p>
+    <input type="text" id="Otro" name="Otro" maxlength="60"><br><br>
+    <p><label for="Correo">Correo</label></p>
+    <input type="text" id="correo" maxlength="60"><br><br>
+    <label for="Poblacion">Poblacion</label><br><br>
+    <select name="Poblacion" id="Poblacion"><br>
+    <option value="0">Selecciona una opcion</option>
+    <option value="Alicante">Alicante</option>
+    <option value="Madrid">Madrid</option>
+    <option value="Sevilla">Sevilla</option>
+    <option value="Valencia">Valencia</option>
+    </select><br><br>
+    <label for="Descripcion">Descripcion</label><br> <textarea name="Descripcion" id="" cols="10" rows="9"></textarea><br><br>
+    <input type="checkbox" name="Ofertas" readonly="readonly">
+    <label for="Ofertas">Deseo recibir nuevas ofertas </label><br><br>
+    <input type="checkbox" name="Terminos y Condiciones" readonly="readonly">
+    <label for="Terminos y Condiciones">Acepto los terminos y condiciones </label><br><br>
+    <input type="submit" name="Aceptar">
+    
+
+</body>
+
+</html>
